@@ -1,6 +1,6 @@
 # 🧪 SauceDemo Automation Project
 
-> 本项目是基于 **SauceDemo** 电商网站的自动化测试解决方案。该项目旨在展示 UI 自动化测试框架的最佳实践，涵盖登录、商品筛选、购物车及下单全流程。
+> 本项目是基于 `SauceDemo` 电商网站的自动化测试解决方案。该项目遵循 `Page Object Model (POM)` 设计模式、输出 `可视化专业报告` 的工业级测试框架雏形。涵盖登录、商品筛选、购物车及下单全流程。
 
 ---
 
@@ -20,12 +20,12 @@
 
 ## 🚀 简介
 
-**SauceDemo** 是一个由 [Sauce Labs](https://saucelabs.com/) 提供的开源演示站点，常用于验证自动化测试工具的功能。本项目实现了对该站点的自动化端到端测试，特点如下：
+`SauceDemo` 是一个由 [Sauce Labs](https://saucelabs.com/) 提供的开源演示站点，常用于验证自动化测试工具的功能。本项目实现了对该站点的自动化端到端测试，特点如下：
 
-- ✅ **模块化设计**：采用 Page Object Model (POM) 设计模式，提高代码可维护性。
-- ✅ **多浏览器支持**：可配置运行于 Chrome、Firefox 或 Edge。
-- ✅ **详细日志与报告**：生成可视化的测试执行报告。
-- ✅ **CI/CD 就绪**：易于集成 GitHub Actions 或 Jenkins。
+- ✅ `模块化设计`：采用 Page Object Model (POM) 设计模式，提高代码可维护性。
+- ✅ `多浏览器支持`：可配置运行于 Chrome、Firefox 或 Edge。
+- ✅ `详细日志与报告`：生成可视化的测试执行报告。
+- ✅ `CI/CD 就绪`：易于集成 GitHub Actions 或 Jenkins。
 
 ---
 
@@ -43,7 +43,7 @@
 
 ## ⚙️ 环境要求
 
-- **Python** 3.9+ 
+- `Python` 3.9+ 
 - 浏览器驱动（ChromeDriver, GeckoDriver 等）需与本地浏览器版本匹配。
 - *(可选)* Docker（用于容器化执行）
 
