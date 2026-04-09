@@ -1,0 +1,7 @@
+environments:
+  prod:
+    base_url: "https://www.saucedemo.com"
+
+browser: "chrome"
+# 可选值：chrome, firefox, edge
+timeout: 10
